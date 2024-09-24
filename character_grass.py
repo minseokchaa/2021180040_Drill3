@@ -35,6 +35,10 @@ def run_left():
     
     pass
 
+def run_diagonal():
+    print('diagonal')
+    pass
+
 
 def run_rectangle():
     print('rectangle')
@@ -59,6 +63,9 @@ def run_circle():
 
 def run_triangle():
     print('triangle')
+    run_bottom()
+    run_left()
+    run_diagonal()
     pass
 
 while True:
