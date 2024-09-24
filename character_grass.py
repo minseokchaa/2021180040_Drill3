@@ -77,7 +77,7 @@ while True:
     run_rectangle()
     run_triangle()
    
-
+    #gg
 
 close_canvas()
 
