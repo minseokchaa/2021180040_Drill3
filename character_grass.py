@@ -37,6 +37,9 @@ def run_left():
 
 def run_diagonal():
     print('diagonal')
+    for x in range (0,800,10):
+        y= 550-x*math.tan(550/800)
+        draw_boy(x,y)
     pass
 
 
@@ -70,11 +73,10 @@ def run_triangle():
 
 while True:
 
-    #run_circle()
-    #run_rectangle()
+    run_circle()
+    run_rectangle()
     run_triangle()
-    break
-
+   
 
 
 close_canvas()
