@@ -30,6 +30,9 @@ def run_bottom():
 
 def run_left():
     print('left')
+    for y in range (0,550,10):
+        draw_boy(0,y)
+    
     pass
 
 
